@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+body {
+  text-align: center;
+  margin: 0;
+  color: #1E1E24;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.vl {
+  display: inline-block;
+  border-left: 1px solid #ccc;
+  margin: 0 10px;
+  height: 10px;
+}
+
+.me {
+  width: 20%;
+  border: 15px solid #1E1E24;
+  border-radius: 50%;
+}
+
+.location-number-email {
+  padding-bottom: 20px;
+}
+
+.links-github-linkedin {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #C2B8B2;
+  margin: auto;
+  border-radius: 200px;
+  width: 200px;
+}
+
+.github, .linkedin {
+  padding: 5px;
+}
+
+#heading {
+  background-color: #FFF8F0;
+  padding: 20px;
+}
+
+#about-me {
+  background-color: #92140C;
+  padding: 20px;
+  color: #FFF8F0;
+}
+
+#skills {
+  background-color: #FFCF99;
+  color: #1E1E24;
+  padding: 20px;
+  padding-bottom: 125px;
+}
+
+#projects {
+  background-color: #111D4A;
+  color: #FFF8F0;
+  padding: 20px;
+}
+
+.about-me, .technologies, .projects {
+  font-size: 45px
+}
+
+.pics-of-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rpg-game, .poem-project, .tic-tac-toe, .e-shop {
+  padding: 20px;
+}
+
+.personal-brand-statement {
+  width: 1000px;
+  font-size: 20px;
+  word-break: normal;
+  margin: 0 auto;
+  padding-bottom: 45px;
+}
+
+.mongodb, .postgresql {
+  padding-left: 10px;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
